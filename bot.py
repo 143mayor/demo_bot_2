@@ -2,7 +2,7 @@ import asyncio
 import logging
 import os
 
-TOKEN = "8380971426:AAGj3qJv0uc2Lnw4LKAPvCmz4aEOFOU2zzI"  # <-- вставь сюда твой новый токен
+TOKEN = os.environ[8380971426:AAGj3qJv0uc2Lnw4LKAPvCmz4aEOFOU2zzI]
 ADMIN_CHAT_ID = -5204529452
 
 # временное хранилище данных пользователей
